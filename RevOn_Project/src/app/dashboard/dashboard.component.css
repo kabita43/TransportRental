@@ -1,0 +1,72 @@
+.container{
+    justify-content: center;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    padding: 24px;
+    max-width: 600px;
+    margin: 150px auto 0;
+    align-items: center;
+    
+}
+h2{
+    color: #6B2667;
+    font-size: 24px;
+}
+.content{
+    margin-bottom: 16px;
+}
+.vehicle-item{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 16px;
+}
+.vehicle-type{
+    color: black;
+    font-size: 18px;
+}
+.vehicle-status{
+    display: flex;
+}
+.status{
+    margin-left: 16px;
+}
+.text{
+    color: black;
+    /* border-radius: 999px;
+    padding: 4px 8px; */
+    font-size: 14px;
+}
+.text-quantity{
+    background-color: #B88BB6;
+    border-radius: 999px;
+    padding: 4px 8px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-weight: bold;
+    
+}
+.text-available{
+    background-color: #166534;
+    border-radius: 999px;
+    padding: 4px 8px;
+    color: white;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    font-weight: bold;
+}
+button{
+    background-color: #6B2667;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    
+}
+
+

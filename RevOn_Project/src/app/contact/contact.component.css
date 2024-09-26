@@ -1,0 +1,122 @@
+
+
+.hero-section {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    background-image:  url('/assets/images/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form {
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 50%;
+    max-width: 600px;
+    padding: 20px;
+    border: 2px solid #ddd;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #999;
+    font-style: oblique;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #5a007d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7b009d;
+}
+footer {
+    background-color:#5a007d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-item i {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.footer-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    margin-left: 56px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #d4b2d8; /* Lighter purple shade on hover */
+}

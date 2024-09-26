@@ -1,0 +1,85 @@
+
+.signup-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+.signup-content{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    border-radius: 8px;
+    overflow:hidden;
+    width: 100%;
+}
+.car-image{
+    width: 100%;
+    flex: 1;
+    text-align: right;
+}
+.car-image img{
+    width:100%;
+    height: auto;
+    object-fit: cover;
+}
+.form-container{
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    padding: 60px;
+    border-radius: 10px;
+    max-width: 400px;
+    
+}
+h2{
+    background-color: #6B2667;
+    color: white;
+    width: 300px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+    /* text-align: center; */
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+}
+button{
+    background-color: #ffffff;
+    color: #6B2667;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    
+}
+p{
+    text-align: center;
+    margin-top: 10px;
+}
+a{
+    color:#6B2667;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+

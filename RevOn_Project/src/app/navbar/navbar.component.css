@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+:root{
+    --text-color: #444;
+    --gradient: linear-gradient(purple,yellow);
+}
+html::-webkit-scrollbar{
+    width: 0.5rem;
+}
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+html::-webkit-scrollbar-thumb{
+    background:#5a007d;
+    border-radius: 5rem;
+}
+section{
+    padding: 50px 100px;
+}
+
+.navbar{
+    position: fixed;
+    width:100%;
+    top: 0;
+    right : 0;
+    z-index: 1000;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    background: #eeeff1;
+    padding: 3px 100px;
+
+}
+
+ .logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    /* height: 50px; */
+    width: 100px;
+    margin-right: 10px;
+} 
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links a {
+    font-size: 1rem;
+    padding: 10px 20px;
+    color: var(--text-color);
+    font-weight: 520;
+    transition: color 0.3s ease; 
+}
+.nav-links a:hover {
+  color: #a020f0;
+}
+
+.nav-links .active a {
+  color: #a020f0;
+  border-bottom: 2px solid #a020f0;
+   /* Optional: Adds an underline to highlight the active link */
+}
+
+/* Search and Buttons Section */
+.nav-actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.flag-container {
+    display: flex;
+    align-items: center;
+}
+
+.flag {
+    /* height: 50px; */
+    width: 20px;
+    margin-right: 10px;
+} 
+
+
+.search-container {
+    position: relative;
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    width: 120px;
+    outline: none;
+}
+
+.search-container .search-btn {
+    position: absolute;
+    right: 5px;
+    top: 50%;
+    transform: translateY(-50%);
+    border: none;
+    background: none;
+    cursor: pointer;
+    color: #5a007d;
+}
+
+.signup-btn, .login-btn {
+    padding: 6px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.signup-btn {
+    background-color: #5a007d;
+    color: white;
+}
+
+.login-btn {
+    background-color: transparent;
+    color: #5a007d;
+    border: 1px solid #5a007d;
+}
+
+.signup-btn:hover, .login-btn:hover {
+    background-color: #7b009d; 
+    color: white;
+}

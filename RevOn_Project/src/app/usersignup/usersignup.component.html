@@ -1,0 +1,41 @@
+<!-- <p>usersignup works!</p> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User SignUp</title>
+</head>
+
+<body>
+    <div class="signup-container">
+        <div class="signup-content">
+            <div class="car-image">
+                <img src="../assets/images/hero.png" alt="Blue car" class="car-image">
+            </div>
+            <div class="form-container">
+                <h2 class="text1">User Mode</h2>
+                <form >
+                    <input type="text" name="fname" placeholder="First Name" [(ngModel)]="signupObj.firstname">
+                    <input type="text" name="lname" placeholder="Lirst Name" [(ngModel)]="signupObj.lastname">
+                    <input type="email" name="email" placeholder="Email" [(ngModel)]="signupObj.email">
+                    <input type="password" name="password" placeholder="Password" [(ngModel)]="signupObj.password">
+                    <input type="tel" name="contact" placeholder="Contact Number" [(ngModel)]="signupObj.contactnumber">
+                    <input type="text" name="address" placeholder="Address" [(ngModel)]="signupObj.address">
+                    <button type="submit" (click)="onSignUp()">Sign Up</button>
+                     
+
+                </form>
+                <p>Already have an account? <a class="login" routerLink="/login">Login</a></p>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
+<router-outlet></router-outlet>

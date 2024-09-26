@@ -1,0 +1,33 @@
+<!-- <p>dashboard works!</p> -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Available vehicle</h2>
+        <div class="content">
+            <div class="vehicle-item" *ngFor="let vehicle of vehicles">
+                <span class="vehicle-type">{{ vehicle.type }}</span>
+                <div class="vehicle-status">
+                    <div class="status">
+                        <div class="text">Quantity</div>
+                        <div class="text-quantity">{{vehicle.quantity }}</div>
+                    </div>
+                    <div class="status">
+                        <div class="text">Available</div>
+                        <div class="text-available">{{vehicle.available}}</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button (click)="viewMore()" class="viewmore">View More</button>
+    </div>
+</body>
+
+</html>

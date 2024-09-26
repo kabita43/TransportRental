@@ -1,0 +1,44 @@
+<!-- <p>navbar works!</p> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RevOn Rental</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="../assets/images/Logo.png" alt="RevOn Rental Logo" class="logo">
+      
+        </div>
+
+        <ul class="nav-links">
+            <li routerLinkActive="active"><a routerLink="home">Home</a></li>
+            <li  routerLinkActive="active"><a routerLink="contact">Contact</a></li>
+            <li  routerLinkActive="active"><a routerLink="about">About</a></li>
+            <li  routerLinkActive="active"><a routerLink="service">Services</a></li>
+            <li  routerLinkActive="active"><a routerLink="faq">FAQ</a></li>
+        </ul>
+
+        <div class="nav-actions">
+            <div class="flag-container">
+                <img src="../assets/images/flag.png" alt="flag" class="flag">
+          
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Search">
+                <button class="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+            <button class="signup-btn" routerLink="mode">Signup</button>
+            <button class="login-btn" routerLink="login">Login</button>
+        </div>
+    </nav>
+    
+</body>
+</html>
+<router-outlet></router-outlet>

@@ -1,0 +1,106 @@
+
+
+.hero-section {
+    position: relative;
+    text-align: center;
+}
+
+.hero-image {
+    background-image:  url('/assets/images/mountain.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image h1 {
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.services-content {
+    padding: 50px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.optional-services h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-box {
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: left;
+}
+
+.service-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #5a007d;
+}
+
+footer {
+    background-color:#5a007d;
+    /* background-color: black; */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+}
+
+.footer-item i {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.footer-item p {
+    margin: 0;
+    font-size: 16px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    margin-left: 56px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: #d4b2d8; /* Lighter purple shade on hover */
+}

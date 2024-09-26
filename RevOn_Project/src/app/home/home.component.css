@@ -1,0 +1,190 @@
+.hero-container {
+    background-image: url('/assets/images/bluecar.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 2% 5%;
+  }
+  
+  .hero-content {
+    max-width: 600px;
+  }
+  
+  .hero-title {
+    font-size: 3.5rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    margin-bottom: 2rem;
+  }
+  
+  .highlight {
+    color: #d35bff;
+  }
+  
+  .sign-up-btn {
+    background-color: #d35bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sign-up-btn:hover {
+    background-color: #b130e0;
+  }
+  header {
+    text-align: center;
+    background-color: #6e317b;
+    color: white;
+    padding: 50px 20px;
+}
+
+.why-choose {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fff;
+}
+
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.feature-item {
+  width: 200px;
+  text-align: center;
+}
+
+.feature-item img {
+  width: 166px;
+  height: 140px;
+}
+.feature-item h2{
+  color: #6e317b;
+  font-size: 18px;
+  font-weight: 550;
+
+}
+
+.feature-item p {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+/* Vehicles Section */
+.vehicles {
+  background-image:  linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/assets/images/mainsecond.jpg'); /* Replace with your background image */
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.vehicles h2 {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.vehicle-items {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.vehicle-item {
+  position: relative;
+}
+
+.vehicle-box {
+  background-color: rgba(255, 255, 255, 0.8); /* White with transparency */
+  border-radius: 10px;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  /* transition: transform 0.3s; */
+}
+
+.vehicle-box:hover {
+  transform: translateY(0px); /* Hover effect to slightly lift the box */
+}
+
+.vehicle-box img {
+  width: 100%;
+  height: auto;
+  max-width: 150px;
+}
+
+/* -----------faq--------- */
+.faq{
+  padding: 10px 12%;
+  text-align:center ;
+  font-size: 18px;
+  }
+  .faq h2{
+      font-weight: 500;
+      font-size:40px ;
+  }
+  .accordion{
+      margin: 60px auto;
+      width: 100%;
+      max-width: 750px;
+  
+  }
+  .accordion li{
+      list-style: none;
+      width: 100%;
+      padding: 5px;  
+  }
+  .accordion li label{
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      font-size: 18px;
+      font-weight: 500;
+      background: #863884;
+      color: #fff;
+      margin-bottom: 2px;
+      cursor: pointer;
+      position: relative;
+  }
+  
+  label::after{
+      content:'+';
+      font-size: 34px;
+      position: absolute;
+      right: 20px;
+      transition: transform 0.5s;
+    }
+  input[type="radio"]{
+      display: none;
+  }
+  .accordion .content{
+    color: #fff;
+      background:#863884;
+      text-align: left;
+      padding: 0 20px;
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.5s, padding 0.5s;
+  }
+  .accordion input[type="radio"]:checked + label + .content{
+      max-height: 600px;
+      padding: 30px 20px;
+  }
+  .accordion input[type="radio"]:checked + label::after {
+      transform: rotate(135deg);
+  }
+
+
