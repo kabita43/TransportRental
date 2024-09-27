@@ -2,7 +2,6 @@
 import { Routes } from '@angular/router';
 import { AddvehicleComponent } from './addvehicle/addvehicle.component';
 import { BusinessTypeComponent } from './business-type/business-type.component';
-import { IndividualInfoComponent } from './individual-info/individual-info.component';
 import { CompanyComponent } from './company/company.component';
 import { CarInfoComponent } from './car-info/car-info.component';
 import { ScooterComponent } from './scooter/scooter.component';
@@ -19,6 +18,7 @@ import { LoginComponent } from './login/login.component';
 import { UsersignupComponent } from './usersignup/usersignup.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { BasicinfoComponent } from './basicinfo/basicinfo.component';
 
 export const routes: Routes = [
     {
@@ -60,9 +60,9 @@ export const routes: Routes = [
         component:CompanyComponent
     },
     {
-        path:'individual-info',
+        path:'basicinfo',
         children:[
-            {path:"", component: IndividualInfoComponent},
+            {path:"", component: BasicinfoComponent},
             {path:"add-vehicle", 
                 children:[
                     {path:"", component:AddvehicleComponent},

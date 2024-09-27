@@ -1,1 +1,40 @@
-<p>basicinfo works!</p>
+<!-- <p>basicinfo works!</p> -->
+<div class="container">
+    <div class="content">
+        <div class="info">
+            <div class="form">
+                <h2>Basic Info</h2>
+                <input name="firstname" type="text" placeholder="First Name">
+                <input name="lastname" type="text" placeholder="Last Name">
+                <input name="email" type="email" placeholder="Email">
+                <input name="password" type="password" placeholder="Password">
+                <input name="contact" type="tel" placeholder="Contact">
+                <input name="address" type="text" placeholder="Address">
+            </div>
+        </div>
+        <div class="form">
+            <h2>Business Document</h2>
+            <input name="driverLicenseNumber" type="tel" placeholder="Driver License Number">
+        </div>
+        <div class="file-upload">
+            <label> The front of National Id Card</label>
+            <input type="file" name="nationalIdFront" required>
+            <div class="file-name" id="nationalIdFrontName"></div>
+        </div>
+        <div class="file-upload">
+            <label> The back of National Id Card</label>
+            <input type="file" name="nationalIdBack" required>
+            <div class="file-name" id="nationalIdBackName"></div>
+        </div>
+        <div class="file-upload">
+            <label> The front of Driver's License</label>
+            <input type="file" name="driverLicenseFront" required>
+            <div class="file-name" id="driverLicenseFrontName"></div>
+        </div>
+    </div>
+    <button type="submit" routerLink="/add-vehicle" > Next</button>
+</div>
+<router-outlet></router-outlet>
+
+
+
